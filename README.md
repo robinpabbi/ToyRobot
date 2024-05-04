@@ -48,3 +48,5 @@ To use the application, follow these steps:
 
 ![alt text](readme_images/run1.png)
 
+5. ![alt text](readme_images/commands_example.png)
+
