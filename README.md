@@ -29,3 +29,10 @@ Other considerations:
 
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot.
 Any move that would cause the robot to fall must be ignored.
+
+# Usage
+To use the application, follow these steps:
+
+1. Clone the repository:
+
+`git clone https://github.com/your-username/toy-robot.git`
