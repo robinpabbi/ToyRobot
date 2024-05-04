@@ -39,7 +39,12 @@ To use the application, follow these steps:
 
 2. Open command prompt at `ToyRobot/ToyRobot` folder (where `ToyRobot.csproj` is present)
 
-3. Run the application.
+3. To build and run the application.
 
-    `dotnet build
-     dotnet run`
+    `dotnet build`
+    `dotnet run`
+
+4. To get table in question i.e. 5x5 see below
+
+![alt text](readme_images/run1.png)
+
