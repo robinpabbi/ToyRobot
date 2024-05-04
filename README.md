@@ -1,5 +1,5 @@
 # ToyRobot
-This is a simple simulation of a toy robot moving on a square tabletop.
+This is a simple simulation of a toy robot moving on a square tabletop. This project is developed using .net version 8.
 
 # Description
 Below two points are were part of challenge but I made it flexible for user to choose the table top:
@@ -35,4 +35,11 @@ To use the application, follow these steps:
 
 1. Clone the repository:
 
-`git clone https://github.com/your-username/toy-robot.git`
+    `git clone https://github.com/your-username/toy-robot.git`
+
+2. Open command prompt at `ToyRobot/ToyRobot` folder (where `ToyRobot.csproj` is present)
+
+3. Run the application.
+
+    `dotnet build
+     dotnet run`
