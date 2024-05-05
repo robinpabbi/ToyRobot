@@ -24,7 +24,7 @@ namespace ToyRobot.Actions
 
             if (args.Length > 1)
             {
-                actionParameters = args[1];
+                actionParameters = string.Join(' ', args.Skip(1));
             }
 
             if (Enum.TryParse(userAction.Trim().ToUpper(), out UserAction action))

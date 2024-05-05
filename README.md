@@ -48,5 +48,23 @@ To use the application, follow these steps:
 
 ![alt text](readme_images/run1.png)
 
-5. ![alt text](readme_images/commands_example.png)
+5. To do actions enter approriate action:
 
+![alt text](readme_images/commands_example.png)
+
+
+# Assumptions
+
+1. Table looks like as below
+
+            W
+      |----------------------|
+      |                      |
+    S |                      | N
+      |                      |
+      |----------------------|
+            E
+
+2. S to N is 'X' axis and W to E is 'Y' axis.
+
+3. `S,W` most cell is `0,0` and `N,E` most cell for 5x5 table top is `4,4`

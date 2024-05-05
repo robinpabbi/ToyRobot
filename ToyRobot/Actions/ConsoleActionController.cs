@@ -33,7 +33,7 @@ namespace ToyRobot.Actions
             while(true)
             {
                 Console.WriteLine();
-                Console.Write("Enter you action:");
+                Console.Write("Enter you action: ");
 
                 var action = Console.ReadLine();
 
@@ -48,6 +48,9 @@ namespace ToyRobot.Actions
 
                 if(executor != null && executor.CanExecute(_tableTop)) {
                     executor.Execute(_tableTop, _tablePositionValidator, actionParams);
+                } else
+                {
+                    Console.WriteLine(executor == null ? $"No action matching {userAction}" : "Can not execute this action at this moment!");
                 }
             }
             

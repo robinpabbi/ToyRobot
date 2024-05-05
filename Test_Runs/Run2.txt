@@ -1,0 +1,39 @@
+Welcome to Table Top Toy Robot Game.
+
+Table Top type:
+        For Square enter 1 (anything except '2' will be considered as square top).
+        For Rectangular enter 2.
+Enter you table top choice:1
+Enter side size of Square table top:5
+
+Enter you action: MOVE
+Can not execute this action at this moment!
+
+Enter you action: Robin
+Ignoring the action as it is Invalid action.
+
+Enter you action: PLACE 4,5,NORTH
+Invalid Location.
+
+Enter you action: PLAVE 4,4,NORTH
+Ignoring the action as it is Invalid action.
+
+Enter you action: PLACE 4,4,NORTH
+Placing Robot at 4, 4, NORTH
+
+Enter you action: MOVE
+Can not move to target location, as Robot will fall from table. Hence ignoring the move
+
+Enter you action: LEFT
+Moved Left from NORTH to WEST.
+
+Enter you action: MOVE
+Moving Robot to 4, 3
+
+Enter you action: MOEV
+Ignoring the action as it is Invalid action.
+
+Enter you action: move
+Moving Robot to 4, 2
+
+Enter you action:

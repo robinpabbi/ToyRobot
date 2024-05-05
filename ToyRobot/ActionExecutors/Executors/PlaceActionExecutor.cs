@@ -39,7 +39,7 @@ namespace ToyRobot.ActionExecutors.Executors
                 return false;
             }
 
-            string[] args = actionParam.Split(',');
+            string[] args = actionParam.Trim().Split(',');
 
             if (args.Length != 3 || !int.TryParse(args[0].Trim(), out x) || !int.TryParse(args[1].Trim(), out y))
             {

@@ -1,0 +1,43 @@
+Welcome to Table Top Toy Robot Game.
+
+Table Top type:
+        For Square enter 1 (anything except '2' will be considered as square top).
+        For Rectangular enter 2.
+Enter you table top choice:1
+Enter side size of Square table top:5
+
+Enter you action: PLACE 3,2,SOUTH
+Placing Robot at 3, 2, SOUTH
+
+Enter you action: MOVE
+Moving Robot to 2, 2
+
+Enter you action: LEFT
+Moved Left from SOUTH to EAST.
+
+Enter you action: MOVE
+Moving Robot to 2, 3
+
+Enter you action: LEFT
+Moved Left from EAST to NORTH.
+
+Enter you action: Report
+Output: 2, 3, NORTH
+
+Enter you action: MOVE
+Moving Robot to 3, 3
+
+Enter you action: RIGHT
+Moved Right from NORTH to EAST.
+
+Enter you action: MOVE
+Moving Robot to 3, 4
+
+Enter you action: REPORT
+Output: 3, 4, EAST
+
+Enter you action: EXIT
+
+D:\AIProjects\ToyRobot\ToyRobot\bin\Debug\net8.0\ToyRobot.exe (process 33972) exited with code 0.
+To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
+Press any key to close this window . . .
