@@ -65,6 +65,12 @@ To use the application, follow these steps:
       |----------------------|
             E
 
+
+
+      W
+  S       N
+      E
+
 2. S to N is 'X' axis and W to E is 'Y' axis.
 
 3. `S,W` most cell is `0,0` and `N,E` most cell for 5x5 table top is `4,4`
