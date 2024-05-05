@@ -1,0 +1,54 @@
+To run application as mentioned in Usage section of README.md
+
+1. Clone the repository:
+
+    `git clone https://github.com/your-username/toy-robot.git`
+
+2. Open command prompt at `ToyRobot/ToyRobot` folder (where `ToyRobot.csproj` is present)
+
+3. To build and run the application.
+
+    `dotnet build`
+    `dotnet run`
+
+  (if using visual studio then open the solution file (Visual Studio 2022 Community version is used to develop). Simply click play button to build and run application)
+
+4. Now Console window will be prompted with information shown:
+
+	"Welcome to Table Top Toy Robot Game.
+
+	Table Top type:
+        	For Square enter 1 (anything except '2' will be considered as square top).
+        	For Rectangular enter 2.
+	Enter you table top choice:" 
+
+5. To get Square Table top of 5x5, we enter 1 and then in second choice 5, as below:
+
+	"Enter you table top choice:1
+	Enter side size of Square table top:5"
+
+6. Now game/simulation is initialized, table top is create and now turn is to PLACE a robot and run other actions for example below:
+
+	"
+	Enter you action: PLACE 3,2,SOUTH
+	Placing Robot at 3, 2, SOUTH
+
+	Enter you action: MOVE
+	Moving Robot to 2, 2
+
+	Enter you action: LEFT
+	Moved Left from SOUTH to EAST.
+
+	Enter you action: MOVE
+	Moving Robot to 2, 3
+
+	Enter you action: LEFT
+	Moved Left from EAST to NORTH.
+
+	Enter you action: Report
+	Output: 2, 3, NORTH 
+
+	"
+
+
+Assumptions are mentioned in the README.md file.
